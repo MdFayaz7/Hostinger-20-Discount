@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hostinger-20-discount.vercel.app/sitemap.xml
+Sitemap: https://hostinger-deal.vercel.app/sitemap.xml

@@ -18,7 +18,7 @@
 
 **🇮🇳 [India store (.in, ₹)](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB)** &nbsp;·&nbsp; **🌍 [Global store (.com, $)](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB)**
 
-🌐 Website: **https://hostinger-20-discount.vercel.app**
+🌐 Website: **https://hostinger-deal.vercel.app**
 
 </div>
 
@@ -103,7 +103,7 @@ No. See the disclosure below.
 
 ## 🛠️ About this repo
 
-This repo holds the source for the static website at **https://hostinger-20-discount.vercel.app**.
+This repo holds the source for the static website at **https://hostinger-deal.vercel.app**.
 
 ```
 ├── index.html          # Landing page (SEO meta, JSON-LD FAQ schema, coupon modal)
