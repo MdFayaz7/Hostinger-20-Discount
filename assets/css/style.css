@@ -182,3 +182,7 @@ details p { margin-top: 0; }
 .btn--outline { background: transparent; color: var(--brand); border-color: var(--brand); }
 .btn--outline:hover { background: var(--brand-soft); }
 @media (prefers-color-scheme: dark) { .btn--outline { color: #c9b8ff; border-color: #8f6cff; } }
+
+/* Visitor counter (deliberately faint) */
+.visits { margin: 14px 0 0; font-size: .75rem; opacity: .35; text-align: right; transition: opacity .2s; }
+.visits:hover { opacity: .8; }

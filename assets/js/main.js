@@ -83,3 +83,19 @@ document.addEventListener("keydown", (e) => {
 const hashTarget = location.hash && document.getElementById(location.hash.slice(1));
 const hashCard = hashTarget && hashTarget.classList.contains("card") && hashTarget.querySelector("[data-coupon]");
 if (hashCard) openModal(hashCard.dataset.coupon);
+
+// Faint visitor counter in the footer. Counts once per browser session; hidden if the API isn't set up.
+(async () => {
+  const box = document.getElementById("visits");
+  if (!box) return;
+  let counted = false;
+  try { counted = sessionStorage.getItem("visit-counted") === "1"; } catch {}
+  try {
+    const r = await fetch("/api/visits", { method: counted ? "GET" : "POST" });
+    if (!r.ok) return;
+    const { count } = await r.json();
+    if (!counted) { try { sessionStorage.setItem("visit-counted", "1"); } catch {} }
+    box.querySelector("[data-visits]").textContent = Number(count).toLocaleString("en-IN");
+    box.hidden = false;
+  } catch {}
+})();

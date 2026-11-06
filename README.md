@@ -115,6 +115,7 @@ This repo holds the source for the static website at **https://hostinger-20-disc
 │   └── og-image.png    # 1200×630 social preview
 ├── robots.txt
 ├── sitemap.xml
+├── api/visits.js       # Visitor counter (Vercel function + Upstash Redis)
 └── vercel.json         # Caching headers + /go and /go-in short links
 ```
 
