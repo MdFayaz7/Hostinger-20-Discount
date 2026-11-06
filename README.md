@@ -14,7 +14,9 @@
 [![Referral Code](https://img.shields.io/badge/CODE-FWHFAYAZMLXB-00b090?style=for-the-badge)](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB)
 [![Status](https://img.shields.io/badge/STATUS-WORKING_NOV_2026-2f1c6a?style=for-the-badge)](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB)
 
-### 👉 [**Click here to activate your 20% Hostinger discount**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB)
+### 👉 Activate your 20% Hostinger discount
+
+**🇮🇳 [India store (.in, ₹)](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB)** &nbsp;·&nbsp; **🌍 [Global store (.com, $)](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB)**
 
 🌐 Website: **https://hostinger-20-discount.vercel.app**
 
@@ -28,7 +30,8 @@
 |---|---|
 | **Discount** | Flat **20% off** |
 | **Referral code** | `FWHFAYAZMLXB` |
-| **Coupon link** | https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB |
+| **India link (.in)** | https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB |
+| **Global link (.com)** | https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB |
 | **Code to type?** | No, it's applied automatically through the link |
 | **Works in** | Worldwide (India, USA, UK, EU, UAE, and more) |
 | **Last checked** | November 2026 |
@@ -39,16 +42,16 @@
 
 Every link below uses the same referral code, so you get 20% off whichever product you pick.
 
-| Product | Best for | Coupon |
-|---|---|---|
-| 🌐 **Web Hosting** | Blogs, portfolios, small business sites | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
-| 📝 **WordPress Hosting** | Managed WordPress, WooCommerce | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
-| 🖥️ **VPS Hosting** | Apps, bots, n8n, game servers, Docker | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
-| ☁️ **Cloud Hosting** | High-traffic sites and stores | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
-| 🎨 **Website Builder** | No-code sites with AI tools | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
-| 🔗 **Domains** | .com, .in, .net, .store and more | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
-| ✉️ **Business Email** | Email on your own domain | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
-| 🏢 **Agency Hosting** | Managing many client sites | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) |
+| Product | Best for | 🇮🇳 India (.in, ₹) | 🌍 Global (.com, $) |
+|---|---|---|---|
+| 🌐 **Web Hosting** | Blogs, portfolios, small business sites | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
+| 📝 **WordPress Hosting** | Managed WordPress, WooCommerce | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
+| 🖥️ **VPS Hosting** | Apps, bots, n8n, game servers, Docker | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
+| ☁️ **Cloud Hosting** | High-traffic sites and stores | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
+| 🎨 **Website Builder** | No-code sites with AI tools | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
+| 🔗 **Domains** | .com, .in, .net, .store and more | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
+| ✉️ **Business Email** | Email on your own domain | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
+| 🏢 **Agency Hosting** | Managing many client sites | [**Get 20% off →**](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) | [**Get 20% off →**](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB) |
 
 > The exact discount and which products qualify are set by Hostinger and may change. Your cart always shows the final price before you pay.
 
@@ -56,7 +59,7 @@ Every link below uses the same referral code, so you get 20% off whichever produ
 
 ## 🧭 How to get 20% off Hostinger (3 steps)
 
-1. **Open the referral link:** [hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB)
+1. **Open the referral link:** 🇮🇳 [India store](https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB) or 🌍 [Global store](https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB)
 2. **Pick your plan:** hosting, VPS, domain, email or website builder. Longer billing periods usually give the lowest monthly price.
 3. **Check your cart:** the 20% referral discount shows as its own line. Complete checkout.
 
@@ -112,10 +115,10 @@ This repo holds the source for the static website at **https://hostinger-20-disc
 │   └── og-image.png    # 1200×630 social preview
 ├── robots.txt
 ├── sitemap.xml
-└── vercel.json         # Caching headers + /go short link to the referral URL
+└── vercel.json         # Caching headers + /go and /go-in short links
 ```
 
-**Deploy:** import the repo on [vercel.com/new](https://vercel.com/new). No build step; it serves as a static site. The short link `/go` redirects straight to the referral URL.
+**Deploy:** import the repo on [vercel.com/new](https://vercel.com/new). No build step; it serves as a static site. Short links: `/go` (Global) and `/go-in` (India) redirect straight to the referral URLs.
 
 ---
 

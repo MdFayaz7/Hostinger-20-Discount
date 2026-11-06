@@ -1,19 +1,42 @@
-// Change this one value if your referral link ever changes.
-const REF_LINK = "https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB";
+// Referral links: India store (.in, ₹) and Global store (.com, $).
+const LINKS = {
+  in: "https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB",
+  com: "https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB",
+};
+
+// Best guess at the visitor's store: India by timezone or browser language, otherwise Global.
+function detectStore() {
+  try {
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
+    if (/^Asia\/(Kolkata|Calcutta)$/.test(tz)) return "in";
+  } catch {}
+  const langs = navigator.languages || [navigator.language || ""];
+  return langs.some((l) => /-IN$/i.test(l)) ? "in" : "com";
+}
+const STORE = detectStore();
+const OTHER = STORE === "in" ? "com" : "in";
 
 const modal = document.getElementById("coupon-modal");
 const productEl = modal.querySelector("[data-product]");
-const goBtn = document.getElementById("modal-go");
+const storesBox = modal.querySelector(".modal__stores");
 const toast = document.getElementById("toast");
 let lastFocus = null;
+
+// Put the visitor's likely store first and make the other one secondary.
+const mainBtn = storesBox.querySelector(`[data-store="${STORE}"]`);
+const altBtn = storesBox.querySelector(`[data-store="${OTHER}"]`);
+storesBox.prepend(mainBtn);
+altBtn.classList.replace("btn--primary", "btn--outline");
+
+// Main CTAs without a modal fallback point at the detected store when JS runs.
+document.querySelectorAll("a[data-coupon]").forEach((a) => { a.href = LINKS[STORE]; });
 
 function openModal(product) {
   lastFocus = document.activeElement;
   productEl.textContent = product;
-  goBtn.href = REF_LINK;
   modal.hidden = false;
   document.body.style.overflow = "hidden";
-  goBtn.focus();
+  mainBtn.focus();
 }
 
 function closeModal() {
@@ -30,11 +53,12 @@ function showToast(msg) {
 }
 
 async function copyLink() {
+  const link = LINKS[STORE];
   try {
-    await navigator.clipboard.writeText(REF_LINK);
-    showToast("Referral link copied ✓");
+    await navigator.clipboard.writeText(link);
+    showToast(`${STORE === "in" ? "India" : "Global"} referral link copied ✓`);
   } catch {
-    window.prompt("Copy this link:", REF_LINK);
+    window.prompt("Copy this link:", link);
   }
 }
 
@@ -47,10 +71,9 @@ document.addEventListener("click", (e) => {
     return;
   }
   if (e.target.closest("[data-copy]")) { copyLink(); return; }
+  if (e.target.closest("[data-store]")) { setTimeout(closeModal, 300); return; }
   if (e.target.closest("[data-close]")) closeModal();
 });
-
-goBtn.addEventListener("click", () => setTimeout(closeModal, 300));
 
 document.addEventListener("keydown", (e) => {
   if (!modal.hidden && e.key === "Escape") closeModal();

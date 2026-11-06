@@ -4,17 +4,37 @@
   "headers": [
     {
       "source": "/assets/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     }
   ],
   "redirects": [
-    { "source": "/go", "destination": "https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB", "permanent": false }
+    {
+      "source": "/go",
+      "destination": "https://www.hostinger.com?REFERRALCODE=FWHFAYAZMLXB",
+      "permanent": false
+    },
+    {
+      "source": "/go-in",
+      "destination": "https://www.hostinger.com/in?REFERRALCODE=FWHFAYAZMLXB",
+      "permanent": false
+    }
   ]
 }
